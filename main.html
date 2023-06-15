@@ -10,19 +10,19 @@
     <div>
         <h1>Feedback Form</h1>
     </div>
-    <form>
+    <form method="post">
         <label for="name">Name</label>
-        <input type="text" id="name" required minlength="3" maxlength="50">
+        <input type="text" id="name" required minlength="3" maxlength="50" size="10">
      <br>
         <label for="portfolio">Portfolio</label>
-        <input type="url"  required id="portfolio" pattern="https://.*">
+        <input type="url"  required id="portfolio" pattern="https://.*" >
         <br> 
         <label for="favColor">Favcolor</label>
         <input type="color" required id="favColor">
         <br>
         <label for="likeness">likeness</label>
-        <input type="range" required  min="1" max="100">
-        <button type="submit" required >submit </button>
+        <input type="range"id="likeness" required  min="1" max="100">
+        <button type="submit" required >Submit </button>
     </form>
     
 </body>
